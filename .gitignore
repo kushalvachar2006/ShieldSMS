@@ -1,0 +1,45 @@
+# Built artifacts
+bin/
+gen/
+out/
+build/
+.gradle/
+
+# Local configuration files
+local.properties
+
+# Log files
+*.log
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Gradle
+.gradle/
+build/
+
+# Captures and other generated files
+captures/
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Keystores
+*.jks
+*.keystore
+
+# External Native Build
+.externalNativeBuild/
+.cxx/
+
+# Google Services
+google-services.json
+
+# OS specific
+.DS_Store
+Thumbs.db

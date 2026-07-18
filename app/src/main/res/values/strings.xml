@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShieldSMS</string>
+
+    <string name="onboarding_desc">This app checks every incoming text message for sensitive content - like OTPs and bank alerts - and hides it until you unlock it with your fingerprint or PIN.\n\nTo see incoming messages, Android requires this app to be set as your DEFAULT messaging app. Nothing is sent anywhere - all checking happens on your phone.</string>
+    <string name="set_as_default">Set as Default Messaging App</string>
+    <string name="onboarding_still_needed">Still not set as default - please select this app in the next screen.</string>
+
+    <string name="no_messages_yet">No messages yet.\nIncoming texts will appear here.</string>
+    <string name="content_hidden">Content hidden - tap to unlock</string>
+
+    <string name="unlock_title">Unlock protected message</string>
+    <string name="waiting_auth">Verify it\'s you to view this message</string>
+    <string name="auth_cancelled">Authentication cancelled</string>
+    <string name="auth_failed">Not recognized - try again</string>
+    <string name="decrypt_failed">Could not decrypt content</string>
+    <string name="message_unavailable">This message is no longer available</string>
+    <string name="cancel_btn">Cancel</string>
+
+    <string name="compose_not_supported">Sending messages is not implemented in this demo - it only demonstrates protecting INCOMING sensitive messages.</string>
+    <string name="close_btn">Close</string>
+
+    <!-- Conversation thread screen -->
+    <string name="conversation_title">Conversation</string>
+</resources>
