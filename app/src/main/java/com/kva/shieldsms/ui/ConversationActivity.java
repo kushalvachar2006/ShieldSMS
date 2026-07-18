@@ -22,17 +22,7 @@ import com.kva.shieldsms.data.MessageEntity;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Shows the full message history for a single sender.
- *
- * Fixes vs previous version:
- *  - Toolbar is now wired via setSupportActionBar() so the contact name
- *    actually appears in the title bar.
- *  - ListView uses setStackFromBottom(true) + setTranscriptMode(TRANSCRIPT_MODE_NORMAL)
- *    so messages render oldest-at-top / newest-at-bottom, and the view opens
- *    scrolled to the latest message — matching standard messaging app behaviour.
- *  - DB query changed to ASC order to match the stack-from-bottom layout.
- */
+
 public class ConversationActivity extends AppCompatActivity {
 
     public static final String EXTRA_SENDER = "extra_sender";

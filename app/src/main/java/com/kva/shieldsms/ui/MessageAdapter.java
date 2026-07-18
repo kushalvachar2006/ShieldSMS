@@ -21,9 +21,6 @@ import java.util.Map;
 
 /**
  * Adapter for the main chat list — one row per unique sender.
- *
- * updateData() deduplicates by sender before binding so even if the DB
- * query returns unexpected duplicates, the UI stays clean.
  */
 public class MessageAdapter extends ArrayAdapter<MessageEntity> {
 

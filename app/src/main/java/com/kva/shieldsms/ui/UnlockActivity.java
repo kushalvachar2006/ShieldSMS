@@ -31,8 +31,6 @@ import java.util.concurrent.Executors;
 
 /**
  * Biometric-gated screen that reveals ALL sensitive messages from one sender.
- *
- * Changes from original:
  *  - Receives EXTRA_SENDER (raw phone/service address) instead of a single
  *    message ID, so every protected message from that sender is shown in one
  *    authenticated view — matching how ConversationActivity works for normal msgs.
